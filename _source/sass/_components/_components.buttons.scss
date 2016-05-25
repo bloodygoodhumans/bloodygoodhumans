@@ -1,0 +1,64 @@
+@mixin c-btn {
+	border: 0;
+	font-family: $f-default;
+	display: inline-block; //* [1] */
+	vertical-align: middle; //* [2] */
+	text-align: center; //* [4] */
+	margin: 0; //* [4] */
+	cursor: pointer; //* [5] */
+	line-height: 1.1;
+
+	@include hocus() {
+		text-decoration: none;
+	}
+
+}
+
+.c-btn--primary {
+	@include c-btn;
+	background-color: $c-btn-background;
+	border-radius: 100px;
+	color: $c-btn;
+	padding: ($base-spacing-unit / 2) $base-spacing-unit;
+	transition: $base-transition;
+	text-transform: uppercase;
+	font-weight: 500;
+
+	@include hocus() {
+		background-color: $c-btn-background-hover;
+	}
+
+}
+
+.c-btn {
+	&--small {
+		font-size: remy(13px);
+		padding: ($base-spacing-unit / 4) ($base-spacing-unit / 2);
+	}
+
+	&--large {
+		padding: $base-spacing-unit ($base-spacing-unit * 2);
+	}
+
+	&--full-width {
+		width: 100%;
+	}
+
+	&--rounded {
+		border-radius: $base-radius;
+	}
+
+	&--facebook {
+		background-color: $c-facebook;
+
+		@include hocus() {
+			background-color: lighten($c-facebook, 10%);
+		}
+	}
+}
+
+.btn-list {
+	&__item {
+		list-style: none;
+	}
+}

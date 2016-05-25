@@ -1,0 +1,9 @@
+.footer {
+ background: $c-page-foot-background;
+ color: $c-page-foot;
+ padding: remy(12px);
+
+ &__copyright-info {
+  margin-bottom: 0;
+ }
+}

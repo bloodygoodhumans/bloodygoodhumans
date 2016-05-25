@@ -1,0 +1,45 @@
+// ====================================================================== //
+// COLOURS
+// ====================================================================== //
+
+// Brand palette
+$c-brand-yellow-orange:      #ffba00;
+
+$c-white:                    #ffffff;
+$c-off-white:                #fefefe;
+$c-black:                    #020303;
+
+$c-facebook:                 #3b559a;
+
+$c-grey--darkest:            #373737;
+$c-grey--dark:               #333333;
+$c-grey--light:              #818181;
+$c-grey--lightest:           #d8d8d8;
+
+// Reassign literal variables to meaningful ones.
+$c-page-text:                $c-grey--dark;
+$c-page-text-alt:            #5b594d;
+$c-page-text-plain:          $c-white;
+$c-page-background:          $c-white;
+
+$c-page-content-background:  $c-white;
+
+// $c-logo:                     $c-brand-primary;
+//
+// $c-links:                    $c-brand-primary;
+// $c-links-hover:              $c-brand-primary;
+
+$c-page-head:                       $c-white;
+$c-page-head-background:            $c-grey--darkest;
+
+$c-btn:                             $c-white;
+$c-btn-background:                  $c-brand-yellow-orange;
+$c-btn-background-hover:            darken($c-brand-yellow-orange, 10%);
+
+$c-page-foot:                       $c-white;
+$c-page-foot-background:            $c-grey--darkest;
+
+$c-panel-background:                #fff;
+//
+// $c-panel-link:                      $c-grey--dark;
+// $c-panel-link-hover:                $c-brand-primary;

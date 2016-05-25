@@ -1,0 +1,15 @@
+%link-primary {
+	color: $c-page-text;
+	@include font-weight(normal);
+	text-decoration: none;
+
+	@include hocus() {
+		text-decoration: underline;
+	}
+
+}
+
+a,
+.link--primary {
+	@extend %link-primary;
+}

@@ -1,0 +1,8 @@
+.o-wrapper {
+		@include clearfix();
+		max-width: 100%;
+		width:100%;
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+}

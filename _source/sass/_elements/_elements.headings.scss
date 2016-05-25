@@ -1,0 +1,32 @@
+h1, h2, h3 {
+	@include font-weight(normal);
+}
+
+h4, h5, h6 {
+	@include font-weight(bold);
+}
+
+h1 {
+	@include heading($f-size-h1, false);
+}
+
+h2 {
+	@include heading($f-size-h2, false);
+}
+
+h3 {
+	@include heading($f-size-h3, false);
+}
+
+h4 {
+	@include heading($f-size-h4, false, false);
+}
+
+h5 {
+	@include heading($f-size-h5, false, false);
+	margin-bottom: em(10px);
+}
+
+h6 {
+	@include heading($f-size-h6, false, false);
+}

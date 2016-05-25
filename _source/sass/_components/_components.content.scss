@@ -1,0 +1,53 @@
+.content-wrapper {
+
+  &--inner {
+    background: $c-page-content-background;
+    padding: remy(35px);
+    text-align: center;
+    @include respond-min($bp-md){
+      text-align: left;
+      width: 60%
+    }
+  }
+
+  .c-btn {
+     position: relative;
+     margin: remy(10px) remy(12px) 0 0;
+  }
+ }
+
+ .content {
+   &--item {
+     &:before {
+       content: '';
+       display:block;
+       position: relative;
+       height: 66px;
+       width: 66px;
+     }
+   }
+   &--our-story {
+     &:before {
+       background: $c-white url(/build/images/svgs/story-2.svg) no-repeat 50%;
+       background-size: cover;
+     }
+   }
+   &--our-mission {
+     &:before {
+       background: $c-white url(/build/images/svgs/mission-2.svg) no-repeat 50%;
+       background-size: cover;
+     }
+   }
+   &--our-events {
+     &:before {
+       background: $c-white url(/build/images/svgs/event.svg) no-repeat 50%;
+       background-size: cover;
+     }
+   }
+   &--support-us {
+     &:before {
+       background: $c-white url(/build/images/svgs/support.svg) no-repeat 50%;
+       background-size: cover;
+     }
+   }
+ }

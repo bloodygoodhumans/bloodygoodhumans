@@ -1,0 +1,76 @@
+// ====================================================================== //
+// FONTS
+// ====================================================================== //
+
+$f-default: 'Raleway', sans-serif;
+
+$f-size-h1:  32px;
+$f-size-h2:  26px;
+$f-size-h3:  18px;
+$f-size-h4:  16px;
+$f-size-h5:  12px;
+$f-size-h6:  12px;
+
+$f-size--max: 42px;
+
+
+// ====================================================================== //
+// DIMENSIONS
+// ====================================================================== //
+
+$d-px: 13px; // Must equal pixel value of $d-rem
+$d-em: 0.813em; // Must equal rem value of $d-px
+$d-rem: 0.8125rem; // Must equal rem value of $d-px
+
+$d-grid__cols--sm: 2;
+$d-grid__cols--md: 12;
+$d-grid__cols--lg: 12;
+
+$d-gutter: 24px;
+$d-gutter--double: 48px;
+$d-gutter--half: 12px;
+
+$d-btn__w: 72px;
+$d-btn__w--double: 144px;
+$d-btn__w--sm: 58px;
+
+
+// ====================================================================== //
+// BREAKPOINTS
+// ====================================================================== //
+
+$bp-sm:        30em;    // 480px / 16px
+
+$bp-md--sm:    40em;    // 640px / 16px
+$bp-md:        48em;    // 768px / 16px
+$bp-md-lg:     61.25em; // 980px / 16px
+
+$bp-lg:        65em;    // 1040px / 16px
+
+
+// ====================================================================== //
+// MISC
+// ====================================================================== //
+
+$fix-mqs: false !default;
+$old-ie: false !default;
+
+$float: left !default;
+$float--opposite: right !default;
+
+// ====================================================================== //
+// ANIMATION
+// ====================================================================== //
+
+$a-time: 0.25s;
+
+
+$base-font-size:    13px;
+$base-line-height:  20px;
+
+$base-radius:       3px;
+$base-radius-btn:		50px;
+
+$base-transition:   0.333333333s;
+
+$base-spacing-unit: $base-line-height;

@@ -1,5 +1,5 @@
-# Bloody Good Humans
-### Pre-requisites
+#TODO: ADD IMAGE MINIFICATION
 
+#Bloody Good Humans
 
-### Build details
+The source code for the Bloody Good Humans website and the build tasks used to create it.

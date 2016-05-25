@@ -1,0 +1,53 @@
+// Quick fixes for IE browsers
+
+.header,
+.footer,
+.content-wrapper {
+  position: relative;
+  overflow:hidden;
+  zoom: 1;
+  *display: inline;
+}
+
+.navigation-primary {
+ padding:49px 2.5% 0;
+ width:20%;
+}
+
+.content-wrapper--inner {
+ padding:43px 2.5%;
+ width:70%;
+}
+
+.footer {
+ padding:2.5%;
+ width:95%;
+}
+
+.navigation-controls {
+  &__item {
+   display: inline;
+  }
+
+  .u-element--right & {
+   margin-right: 30px;
+  }
+ }
+
+.content-wrapper {
+
+  &__def-table {
+   width: 100%;
+  }
+
+  &__def-table-dt {
+   padding: 2.5%;
+   width: 200px!important;
+  }
+
+  &__def-table-dd {
+   padding:2.5%;
+   width:500px!important;
+  }
+
+ }

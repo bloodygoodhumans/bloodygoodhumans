@@ -1,0 +1,38 @@
+.header {
+
+  &.is-sticky {
+    background: $c-page-head-background;
+    border-bottom: 3px solid $c-grey--darkest;
+  }
+
+  .logo--main {
+    margin: remy(12px) 0 remy(22px) remy(18px);
+    background: transparent url(/build/images/svgs/stacked-logo.svg) no-repeat 50%;
+    background-size: contain;
+    text-align: center;
+    text-indent: -99999em;
+
+    @include respond-min($bp-md) {
+      background: transparent url(/build/images/svgs/horizontal-logo.svg) no-repeat 50%;
+      background-size: contain;
+    }
+  }
+
+  &__background {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+  }
+
+  &__hero {
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  &__info {
+    position: absolute;
+    // background: blue;
+  }
+}

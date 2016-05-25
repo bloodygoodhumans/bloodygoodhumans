@@ -1,0 +1,9 @@
+.u-center {
+	text-align: center;
+}
+
+.u-right {
+	@include breakpoints(sm) {
+		text-align: right;
+	}
+}
